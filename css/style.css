@@ -1,6 +1,7 @@
 body {
     height: 100%;
     overflow: hidden;
+    background-image: url(/images/bg3.png) no-repeat;
 }
 .game-text {
     display: none;
@@ -14,18 +15,22 @@ body {
     left: 0;
     top: 0;
     color: #fff;
-    font-size: 50px;
+    font-size: 60px;
 }
 .game-text > button {
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1.2rem;
+    font-size: 24px;
     color: #fff;
+    margin-top: 30px;
     background: salmon;
     border: none;
     cursor: pointer;
 }
 .score {
+    color: white;
+    margin-top: 2rem;
     text-align: center;
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom: 2rem;
 }
 .playground > ul {
@@ -43,7 +48,7 @@ body {
 .playground > ul > li > ul > li {
     width: 25px;
     height: 25px;
-    outline: 1px solid #ccc;
+    outline: 1px solid #dbdbdb;
 }
 .tree {
     background: #67c23a;
