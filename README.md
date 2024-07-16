@@ -14,16 +14,16 @@
 + JAVASCRIPT
 
 ## 📌 주요 기능
-🌞 block 랜덤 생성
+🌞 <b>block 랜덤 생성</b><br>
 다양한 block을 먼저 제작했고 그 block들이 랜덤으로 생성됩니다.
 
-🌞 block이 바닥에 닿으면 새로운 block 생성
+🌞 <b>block이 바닥에 닿으면 새로운 block 생성</b><br>
 block이 위에서 내려와서 바닥에 닿거나 다른 block에 닿으면 위에서 새로운 block이 생성됩니다.
 
-🌞 score 업데이트
+🌞 <b>score 업데이트</b><br>
 블록이 한 줄로 맞춰지면 score이 올라가면서 한 줄이 없어지게 됩니다.
 
-🌞 block 넘치면 게임종료
+🌞 <b>block 넘치면 게임종료</b><br>
 블록이 계속 쌓여서 격자에 꽉 차면 화면이 어두워지며 게임종료가 됩니다.
 
 ## 💬 느낀 점
