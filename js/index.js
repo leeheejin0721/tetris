@@ -1,16 +1,13 @@
 import BLOCKS from "./blocks.js";
 
-// DOM
 const playground = document.querySelector(".playground > ul");
 const gameText = document.querySelector(".game-text");
 const scoreDisplay = document.querySelector(".score");
 const restartButton = document.querySelector(".game-text >button")
 
-// Setting
 const GAME_ROWS = 20;
 const GAME_COLS = 10;
 
-// variables
 let score = 0;
 let duration = 500;
 let downInterval;
@@ -25,14 +22,13 @@ const movingItem = {
 
 init()
 
-// functions
 function init() {
     tempMovingItem = { ...movingItem };
     for (let i = 0; i < GAME_ROWS; i++) {
         prependNewLine()
     }
-    score = 0; // 점수 초기화
-    scoreDisplay.innerText = score; // 화면에 표시되는 점수 업데이트
+    score = 0;
+    scoreDisplay.innerText = score;
     generateNewBlock()
 }
 
@@ -157,7 +153,6 @@ function showGameoverText() {
     gameText.style.display = "flex"
 }
 
-// event handling
 document.addEventListener("keydown", e => {
     switch(e.keyCode) {
         case 39:
